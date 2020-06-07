@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>eva solo</title>
+    <link rel="stylesheet" href="css/libs.min.css">
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="content">
+
+            <header class="header">
+                <div class="header__inner">
+                    <div class="header__inner-nav">
+                        <a class="navicon" href="#"><img src="images/icon-nav.png" alt=""></a>
+                        <a class="search" href="#"><img src="images/icon-search.png" alt=""></a>
+                        <a class="phone" href="tel:88003503309"><img src="images/icon-phone.png" alt=""></a>
+                        <a class="medssage" href="mailto:"><img src="images/icon-mess.png" alt=""></a>
+                        <a class="user" href="#"><img src="images/icon-user.png" alt=""></a>
+                        <a class="cart" href="#"><img src="images/icon-cart-drop.png" alt=""></a>
+                    </div>
+                    <div class="header__inner-logo">
+                        <a class="logo" href="#"><img src="images/logo.png" alt=""></a>
+                        <a class="cart" href="#"><img src="images/icon-cart-head.png" alt=""></a>
+                    </div>
+                </div>
+                <!-- <div class="header__inner-drop">
+                    <div class="header__inner-nav">
+                        <a class="navicon" href="#"><img src="images/icon-nav.png" alt=""></a>
+                        <a class="search" href="#"><img src="images/icon-search.png" alt=""></a>
+                        <a class="phone" href="tel:88003503309"><img src="images/icon-phone.png" alt=""></a>
+                        <a class="medssage" href="mailto:"><img src="images/icon-mess.png" alt=""></a>
+                        <a class="user" href="#"><img src="images/icon-user.png" alt=""></a>
+                        <a class="cart" href="#"><img src="images/icon-cart-drop.png" alt=""></a>
+                    </div>
+                </div> -->
+            </header>
+
+            <main>
+                <form class="main">
+                    <section class="cart">
+                        <div class="container">
+                            <h1 class="cart__title title">Корзина</h1>
+                            <div class="cart__inner product">
+                                <div class="product__image">
+                                    <img src="images/image-1.jpg" alt="">
+                                </div>
+                                <div class="product__description">
+                                    <span class="product__description-price" id="sum1">4850</span>
+                                    <span class="product__description-price">руб.</span>
+                                    <div class="product__description-name">Мультирамка<br>Edge настенная,<br>натуральное дерево</div>
+                                    <div class="select-wrap">
+                                        <select class="product__description-quantity" id="number">
+                                    <option>1</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                    <option>4</option>
+                                    <option>5</option>
+                                    <option>6</option>
+                                    <option>7</option>
+                                    <option>8</option>
+                                    <option>9</option>
+                                    <option>10</option>
+                                  </select>
+                                    </div>
+                                    <div class="product__description-presence">В наличии на складе</div>
+                                </div>
+                            </div>
+                            <div class="cart__inner bonus">
+                                <div class="bonus__description">
+                                    <div class="bonus__description-name">Ваш подарок</div>
+                                    <div class="bonus__description-text">Декор для стен Bloomer, красный</div>
+                                </div>
+                                <div class="bonus__image">
+                                    <img src="images/image-2.jpg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="form">
+                        <div class="container">
+                            <h2 class="form__title title">Оформление заказа</h2>
+
+                            <div class="form__inner">
+                                <div class="input-wrap">
+                                    <div class="input-name">Представтесь</div>
+                                    <input class="input" type="text" required>
+                                </div>
+                                <div class="input-wrap">
+                                    <div class="input-name">Телефон</div>
+                                    <input class="input phone" type="text" placeholder="+7 (___) ___ - __ - __" required>
+                                </div>
+                                <div class="input-wrap">
+                                    <div class="input-name">E-mail</div>
+                                    <input class="input" type="text" required>
+                                </div>
+                                <div class="input-wrap location">
+                                    <div class="input-name">Регион</div>
+                                    <input class="input" type="text" required>
+                                </div>
+                                <div class="input-wrap location">
+                                    <div class="input-name">Город</div>
+                                    <input class="input" type="text" required>
+                                </div>
+                            </div>
+                            <div class="form__subtitle">Стоимость и способ доставки уточнит наш оператор</div>
+                            <fieldset>
+                                <div class="promo">
+                                    <div class="input-wrap">
+                                        <div class="input-name">Промокод</div>
+                                        <input class="input" type="text" required>
+                                    </div>
+                                    <button class="btn" type="submit">ОК</button>
+                                </div>
+                                <input type="checkbox" id="check">
+                                <label for="check">Оставляя заказ, я соглашаюсь с условиями</label>
+                                <div class="offer-link"><a href="#">оферты и правилами оказания услуг</a></div>
+                            </fieldset>
+                            <div class="total">
+                                <div class="total__title">Сумма заказа</div>
+                                <div class="total__price">
+                                    <span id="sum2">4850</span>
+                                    <span>руб.</span>
+                                </div>
+                            </div>
+                            <button class="main-btn" type="submit">Оформить заказ</button>
+
+                        </div>
+                    </section>
+                </form>
+
+            </main>
+
+        </div>
+
+        <footer class="footer">
+            <div class="container">
+                <div class="footer__text">Работаем без выходных c 09:00 до 22:00</div>
+                <div class="footer__phone"><a href="tel:88003503309">8 800 350-33-09</a></div>
+                <div class="footer__link"><a href="#">Перейти на основной сайт</a></div>
+                <div class="footer__inner">
+                    <div class="copy">© 2020, Evasolo.me Фирменный магазин Eva Solo</div>
+                    <div class="social__icon">
+                        <a class="icon" href="https://vk.com"><img src="images/icon-vk.png" alt=""></a>
+                        <a class="icon" href="https://www.instagram.com"><img src="images/icon-in.png" alt=""></a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js "></script>
+        <script src="js/libs.min.js "></script>
+        <script src="js/main.js "></script>
+    </div>
+</body>
+
+</html>

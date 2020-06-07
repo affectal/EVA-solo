@@ -1,0 +1,62 @@
+html {
+    box-sizing: border-box;
+    height: 100%;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+
+.content {
+    flex: 1 0 auto;
+    max-width: 1366px;
+    width: 100%;
+    background-size: contain;
+    background-position: top;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+}
+
+.footer {
+    flex: 0 0 auto;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+a,
+select,
+input,
+button,
+fieldset {
+    outline: transparent;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Futura PT', sans-serif;
+    font-weight: 450;
+    color: #000;
+}
+
+.container {
+    max-width: 411px;
+    padding: 0 21px;
+    margin: 0 auto;
+}
+
+.title {
+    font-family: 'Gilroy Extra Bold', sans-serif;
+    font-weight: 800;
+}
