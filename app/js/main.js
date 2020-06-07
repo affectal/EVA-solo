@@ -12,8 +12,8 @@ $(function() {
 
 
     var dropDownBtn = $(".navicon");
+    var searchBtn = $(".search");
     var top = $(".header__inner");
-    // var topDropDown = $(".header__inner-drop");
 
     dropDownBtn.click(function() {
         if (top.hasClass('drop')) {
@@ -21,7 +21,21 @@ $(function() {
         } else {
             top.addClass('drop');
         }
-        // topDropDown.animate({ width: 'toggle' }, 350);
+        if (top.hasClass('search')) {
+            top.removeClass('search');
+        }
+
+    });
+
+    searchBtn.click(function() {
+        if (top.hasClass('search')) {
+            top.removeClass('search');
+        } else {
+            top.addClass('search');
+        }
+        if (top.hasClass('drop')) {
+            top.removeClass('drop');
+        }
     });
 
 });
